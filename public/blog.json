@@ -6,7 +6,7 @@
         "author": "John Doe",
         "author_img": "https://i.ibb.co/FwFprGW/man-593372-1280.jpg",
         "posted_date": "2024-04-24",
-        "reading_time": "3 hours",
+        "reading_time": 9,
         "hashtags": ["beginners", "programming"]
     },
     {
@@ -16,7 +16,7 @@
         "author": "Jane Smith",
         "author_img": "https://i.ibb.co/FDtdRNg/entrepreneur-593371-1280.jpg",
         "posted_date": "2024-04-22",
-        "reading_time": "2.5 hours",
+        "reading_time": 5,
         "hashtags": ["beginners", "programming" ]
     },
     {
@@ -26,7 +26,7 @@
         "author": "Emily Johnson",
         "author_img": "https://i.ibb.co/PZjnc5c/adult-1851571-1280.jpg",
         "posted_date": "2024-04-20",
-        "reading_time": "2 hours",
+        "reading_time": 4,
         "hashtags": ["beginners", "programming"]
     },
     {
@@ -36,7 +36,7 @@
         "author": "Michael Williams",
         "author_img": "https://i.ibb.co/4T2wrqQ/asian-man-1468032-1280.jpg",
         "posted_date": "2024-04-18",
-        "reading_time": "2.5 hours",
+        "reading_time": 11,
         "hashtags": ["beginners", "programming"]
     }
 ]

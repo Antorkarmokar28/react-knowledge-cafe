@@ -1,6 +1,8 @@
-import PropTypes from 'prop-types';
+import { prototype } from 'postcss/lib/previous-map';
+import PropTypes, { number } from 'prop-types';
+import { IoBookmarksOutline } from "react-icons/io5";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
 
     const { cover, author_img, author, posted_date, reading_time, title, hashtags } = blog;
 
@@ -25,10 +27,10 @@ const Blog = ({ blog }) => {
                         </div>
                     </div>
                     {/* read bookmarks */}
-                    <div>
+                    <div className='flex items-center gap-5'>
                         <h4 className='text-sm md:text-xl'>{reading_time} read
                         </h4>
-                        <button></button>
+                        <button className='text-2xl' onClick={() => handleAddToBookmark(blog)}><IoBookmarksOutline /></button>
                     </div>
                 </div>
                 <div>
@@ -38,7 +40,10 @@ const Blog = ({ blog }) => {
                             hashtags.map((hash, idx) => <span key={idx}><a href="">#{hash}</a></span>)
                         }
                     </h4>
-                    <a className='underline text-indigo-800 text-lg md:text-xl font-semibold' href="#">Mark as read</a>
+                    <button 
+                        onClick={() => handleReadingTime(reading_time)}
+                        className='underline text-indigo-800 text-lg md:text-xl font-semibold'>Mark as read
+                    </button>
                 </div>
             </div>
         </div>
@@ -47,6 +52,8 @@ const Blog = ({ blog }) => {
 
 Blog.prototypes = {
     blog: PropTypes.object.isRequired,
-};
+    handleAddToBookmark: PropTypes.func.isRequired,
+    handleReadingTime: PropTypes.func.isRequired,
+}
 
 export default Blog;

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/WVNbPHq/programming-2115930-1280.jpg",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "John Doe",
+        "author_img": "https://i.ibb.co/FwFprGW/man-593372-1280.jpg",
+        "posted_date": "2024-04-24",
+        "reading_time": "3 hours",
+        "hashtags": ["beginners", "programming"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/fSGLzvj/laptop-2557466-1280.jpg",
+        "title": "The Self-Learner's Guide to Web Development",
+        "author": "Jane Smith",
+        "author_img": "https://i.ibb.co/FDtdRNg/entrepreneur-593371-1280.jpg",
+        "posted_date": "2024-04-22",
+        "reading_time": "2.5 hours",
+        "hashtags": ["beginners", "programming" ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/HFSKQ7v/caspar-camille-rubin-f-Pkv-U7-RDm-Co-unsplash.jpg",
+        "title": "The Ultimate Guide to Popular Programming Languages",
+        "author": "Emily Johnson",
+        "author_img": "https://i.ibb.co/PZjnc5c/adult-1851571-1280.jpg",
+        "posted_date": "2024-04-20",
+        "reading_time": "2 hours",
+        "hashtags": ["beginners", "programming"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/MDsCBqG/web-1668931-1280.jpg",
+        "title": "Mastering Web Development: A Comprehensive Guide",
+        "author": "Michael Williams",
+        "author_img": "https://i.ibb.co/4T2wrqQ/asian-man-1468032-1280.jpg",
+        "posted_date": "2024-04-18",
+        "reading_time": "2.5 hours",
+        "hashtags": ["beginners", "programming"]
+    }
+]

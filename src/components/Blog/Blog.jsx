@@ -1,10 +1,10 @@
-import { prototype } from 'postcss/lib/previous-map';
-import PropTypes, { number } from 'prop-types';
+
+import PropTypes from 'prop-types';
 import { IoBookmarksOutline } from "react-icons/io5";
 
 const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
 
-    const { cover, author_img, author, posted_date, reading_time, title, hashtags } = blog;
+    const {id, cover, author_img, author, posted_date, reading_time, title, hashtags } = blog;
 
     return (
         <div className='m-10'>
@@ -41,7 +41,7 @@ const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
                         }
                     </h4>
                     <button 
-                        onClick={() => handleReadingTime(reading_time)}
+                        onClick={() => handleReadingTime(id, reading_time)}
                         className='underline text-indigo-800 text-lg md:text-xl font-semibold'>Mark as read
                     </button>
                 </div>

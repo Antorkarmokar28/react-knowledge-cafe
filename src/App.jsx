@@ -15,9 +15,11 @@ function App() {
     setBookmarks(newBlogs)
   }
   // added reading to bookmark area
-  const handleReadingTime = time =>{
+  const handleReadingTime = (id, time) =>{
     const newReadingTime = timeReading + time;
     setReadingTime(newReadingTime);
+    const removeBoomarkItems = bookmarks.filter( bookmark => bookmark.id !== id);
+    setBookmarks(removeBoomarkItems);
   }
   return (
     <>
